@@ -79,7 +79,7 @@ const Demo = () => {
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             onKeyDown={handleKeyDown}
             required
-            className="url_input peer" 
+            className="url_input peer"
           />
           <button
             type="submit"
